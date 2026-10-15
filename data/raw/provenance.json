@@ -1,0 +1,42 @@
+{
+  "dataset_name": "Tableau Sample Superstore Dataset",
+  "source_url": "https://raw.githubusercontent.com/sumit0072/Superstore-Data-Analysis/main/Sample%20-%20Superstore.csv",
+  "source_repository": "https://github.com/sumit0072/Superstore-Data-Analysis",
+  "access_date": "2026-10-15T14:19:52.474791+00:00",
+  "file_format": "CSV",
+  "encoding": "windows-1252",
+  "file_size_bytes": 2287806,
+  "sha256": "58fb59c63089e564d835e4aabe19d371757de1137a5bf1888243ae386c4b7a97",
+  "row_count": 9994,
+  "column_count": 21,
+  "columns": [
+    "Row ID",
+    "Order ID",
+    "Order Date",
+    "Ship Date",
+    "Ship Mode",
+    "Customer ID",
+    "Customer Name",
+    "Segment",
+    "Country",
+    "City",
+    "State",
+    "Postal Code",
+    "Region",
+    "Product ID",
+    "Category",
+    "Sub-Category",
+    "Product Name",
+    "Sales",
+    "Quantity",
+    "Discount",
+    "Profit"
+  ],
+  "license": "Public domain / Tableau sample dataset intended for learning, benchmarking, and portfolio demonstration",
+  "known_limitations": [
+    "Synthetic/anonymized business data created by Tableau for business intelligence demonstrations.",
+    "Postal code is missing or represented as float for some non-US/specific territories or leads with zero.",
+    "Order dates span a 4-year cycle (2014-2017).",
+    "Discount is recorded as decimal (0.0 to 0.8), where high discounts frequently result in negative profit."
+  ]
+}
